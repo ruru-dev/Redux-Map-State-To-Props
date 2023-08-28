@@ -1,5 +1,12 @@
+/**
+ *  The inital state of your application. It's just an object with data.
+ *  This is literally the data that will be tracked in the state.
+ */
 export default {
-    // Add user property here
+    user: {
+      username: 'test-user-1',
+      email: 'test-user@example.com'
+    },
     cars: [
         {
            "id": 1,

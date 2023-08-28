@@ -8,6 +8,8 @@ import store from './redux/store'
 
 function App() {
   return (
+    // We wrap our components in a Provider component from redux. 
+    // This will pass down the state store object as a prop.
     <Provider store={store}>
       <BrowserRouter>
         <Navigation />
